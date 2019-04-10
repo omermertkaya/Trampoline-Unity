@@ -9,4 +9,4 @@ You could download "trampoline.cs". If you dont have a trampoline game object, y
 
 You can see that.
 
-![Screenshot](screenshoot1.png)
+![Screenshot](screenshot1.png)
