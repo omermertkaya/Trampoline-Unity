@@ -25,7 +25,7 @@ public class Trampoline : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D other)
     {
-        //Debug.Log("Stay Tamam");
+        //Debug.Log("your charater is staying on the trampoline");
         anim.SetBool("isStepped", true);
 
     }
@@ -34,7 +34,7 @@ public class Trampoline : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            Debug.Log("EnterTamam");
+           // Debug.Log("your charater entred.");
 
         }
 
@@ -44,7 +44,7 @@ public class Trampoline : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("exit tamam");
+            // Debug.Log("your charater exited.");
             anim.SetBool("isStepped", false);
            
 
