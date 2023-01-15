@@ -35,7 +35,7 @@ You could select jump function. The screen is right-top.
 
 
 
-# Let's Jump with Charater 
+# Let's Jump with Character 
 
 Dont forget. You could add box-collider2d at your trampoline. Trampoline have animator. And Animator is working with your jump function. 
 
